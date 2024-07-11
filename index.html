@@ -474,16 +474,84 @@
 
     <div  class="backdrop is-hidden" data-modal>
       <div class="modal">
-      <p>
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas minima vero iste impedit quidem fugiat incidunt molestiae fuga eos maiores voluptate, consequuntur voluptatibus ipsa quam esse, nam ab commodi expedita?
-         Architecto maiores molestias neque molestiae illum doloremque earum tempora dolor voluptatibus voluptas eligendi a tenetur ut quis, dolores deserunt saepe id. Nesciunt delectus veritatis iste facilis cumque ullam eius sapiente!
-         Sit non quod ad ullam a voluptatum, praesentium est repellendus! Perspiciatis asperiores, et esse fugit aperiam expedita minima id hic facilis tenetur, beatae nam explicabo voluptatem vero obcaecati nostrum rem.
-      </p>
-      <div class="close" data-modal-close></div>
-        <!-- <button data-modal-close>Закрыть</button> -->
+        
+        <h2 class="title-modal">Оставьте свои данные, мы вам перезвоним</h2>
+        
+        <form class="form"> 
+          <label class="form-field">
+              <input type="text" class="form-input" name="name" id="name" autocomplete="no-autofill-please" placeholder=" " >
+              <span class="form-label">Имя</span>          
+              <svg class="icon-person icon-form" width="15px" height="15px">
+                <use href="./icons/sprite.svg#person"></use>
+              </svg>
+          </label>
+
+          <label class="form-field">
+            <input type="tel" class="form-input" name="phone" id="phone" autocomplete="off" placeholder=" ">   
+            <span class="form-label">Телефон</span>         
+            <svg class="icon-phone icon-form" width="15px" height="15px">
+              <use href="./icons/sprite.svg#phone"></use>
+            </svg>
+          </label>
+
+          <label class="form-field">
+            <input type="email" class="form-input form-margin" name="mail" id="mail" autocomplete="off" placeholder=" ">      
+            <span class="form-label">Почта</span>      
+            <svg class="icon-email icon-form" width="15px" height="15px">
+              <use href="./icons/sprite.svg#email"></use>
+            </svg>
+          </label>
+
+          <label class="text-field form-field">
+            <span class="form-text">Комментарий</span>
+            <textarea name="comment" placeholder="Введите текст"></textarea>
+          </label>
+
+         
+              <label class="field">
+                <input class="checkbox" type="checkbox" name="topic" value="html">
+                <span class="icon"></span>
+               <span class="checkbox-lable">Соглашаюсь с рассылкой и принимаю <a class="checkbox-lable-link" href="">Условия договора</a></span>
+              </label>
+              <button class="form-button" type="submit">Отправить</button>
+        </form>
+
+      <!-- <form class="form">
+        <div class="form-field">
+          <label class="form-label">
+          Имя
+          <input class="form-input" type="name" name="name">
+        </label>
+        </div>
+        <div class="form-field">
+          <label class="form-label">
+            Телефон
+            <input class="form-input" type="tel" name="tel">
+          </label>
+        </div>
+        <div class="form-field">
+          <label class="form-label">
+            Почта
+            <input class="form-input" type="email" name="email">
+          </label>
+        </div>
+        <div class="form-field">
+          <label class="form-label">
+            Коментарий
+            <textarea  name="text"  cols="30" rows="10"></textarea>
+          </label>
+        </div>
+          <label>
+            <input type="checkbox">
+            Соглашаюсь с рассылкой и принимаю <span>Условия договора</span>
+        </label>
+      </form> -->
+      <svg class="icon-close" data-modal-close width="30px" height="30px">
+        <use href="./icons/sprite.svg#close"></use>
+      </svg>
+
       </div>
     </div>
     <script src="./js/modal.js"></script>
-
   </body>
 </html>
