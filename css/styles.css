@@ -670,8 +670,8 @@ textarea::placeholder {
   display: flex;
 }
 .footer-social {
-  padding-top: 12px;
-  margin-right: 93px;
+  padding-top:  12px;
+  margin-right: 90px;
 }
 
 .contact-info {
@@ -781,10 +781,7 @@ textarea::placeholder {
 
   background-color: #2f303a;
 }
-.subscribe-forms {
-  display: flex;
-  align-items: flex-end;
-}
+
 
 .subscribe-btn {
   width: 200px;
@@ -803,6 +800,7 @@ textarea::placeholder {
 }
 .tel-logo {
   position: relative;
+  margin-top: 36px;
   width: 200px;
 }
 .subscribe-btn::after {
