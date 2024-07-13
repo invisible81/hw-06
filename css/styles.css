@@ -806,7 +806,7 @@ textarea::placeholder {
 .subscribe-btn::after {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 24%;
   right: 28px;
   transform: translateY(-50%);
   width: 24px;
