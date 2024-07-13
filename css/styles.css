@@ -671,11 +671,13 @@ textarea::placeholder {
 }
 .footer-social {
   padding-top: 12px;
+  margin-right: 93px;
 }
 
 .contact-info {
   margin-right: 70px;
 }
+
 
 .footer .footer-logo {
   display: block;
@@ -744,6 +746,79 @@ textarea::placeholder {
   letter-spacing: 1px;
   text-align: left;
   text-transform: uppercase;
+}
+
+.subscribe {
+  margin-right: 12px;
+}
+
+.form-subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-subscribe {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.input-subscribe {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+
+  background-color: #2f303a;
+}
+.subscribe-forms {
+  display: flex;
+  align-items: flex-end;
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: var(--accent-color);
+  padding: 0 0 0 29px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 1px;
+  text-align: left;
+ 
+}
+.tel-logo {
+  position: relative;
+  width: 200px;
+}
+.subscribe-btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  
+  
+ 
+  background-image:url(../icons/telegram.icon.svg);
+  background-size: contain;
+  background-origin: border-box;
 }
 
 /* portfolio - nav */
