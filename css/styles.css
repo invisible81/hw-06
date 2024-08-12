@@ -361,6 +361,7 @@ button.hero-button {
 }
 
 textarea {
+   padding: 12px 0 0 16px;
    resize: none;
    width: 448px;
    height: 120px;
@@ -369,7 +370,6 @@ textarea {
 }
 
 textarea::placeholder {
-  padding: 12px 0 0 16px;
   color: var(--primary-text-color);
   opacity: 50%;
 }
@@ -443,6 +443,10 @@ textarea::placeholder {
   background-color: var(--accent-color);
 }
 
+.form-button:hover,
+.form-button :focus{
+  cursor: pointer;
+}
 /* .close:before, .close:after {
   content: ""; 
   position: absolute; 
@@ -670,8 +674,8 @@ textarea::placeholder {
   display: flex;
 }
 .footer-social {
-  padding-top:  12px;
-  margin-right: 90px;
+  
+  margin:12px 90px 0 0;
 }
 
 .contact-info {
@@ -749,7 +753,7 @@ textarea::placeholder {
 }
 
 .subscribe {
-  margin-right: 12px;
+  margin: 12px 12px 0 0;
 }
 
 .form-subscribe {
@@ -786,6 +790,7 @@ textarea::placeholder {
 .subscribe-btn {
   width: 200px;
   height: 50px;
+  margin-top: 12px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: var(--accent-color);
@@ -798,6 +803,11 @@ textarea::placeholder {
   text-align: left;
  
 }
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  cursor: pointer;
+}
 .tel-logo {
   position: relative;
   margin-top: 36px;
@@ -806,7 +816,7 @@ textarea::placeholder {
 .subscribe-btn::after {
   content: "";
   position: absolute;
-  top: 24%;
+  top: 34%;
   right: 28px;
   transform: translateY(-50%);
   width: 24px;
